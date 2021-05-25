@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="home.css" rel="stylesheet" type="text/css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coded Restaurant | Order</title>
+  </head>
+  <body>
+    <nav class="navb navbar navbar-expand-sm container-fluid">
+      <img
+        src="https://cdn2.iconfinder.com/data/icons/food-restaurant-1/128/flat-15-512.png"
+        alt="resturant logo"
+        class="logo butt"
+      />
+      <h1 class="name">Coded Restaurant</h1>
+      <button type="button" class="butt btn btn-outline-dark">
+        <a
+          class="nav-link"
+          href="home.html"
+          >home</a
+        >
+      </button>
+      <button type="button" class="butt btn btn-outline-dark">
+        <a class="nav-link" href="about.html">about</a>
+      </button>
+      <button type="button" class="butt btn btn-outline-dark">
+        <a
+          class="nav-link"
+          href="order.html"
+          >order</a
+        >
+      </button>
+      <div class="dropdown butt btn-outline-dark">
+        <button
+          type="button"
+          class="butt btn btn-outline-dark dropdown-toggle con"
+          data-toggle="dropdown"
+        >
+          contact
+        </button>
+        <div class="dropdown-menu">
+            <span class="dropdown-item">email: aaaaa@restaurant.com</span>
+            <span class="dropdown-item">phone: +962788614693</span>
+        </div>
+      </div>
+      <div class="form-group butt">
+        <label for="usr"></label>
+        <input
+          type="search"
+          class="form-control sear"
+          id="usr"
+          placeholder="Search"
+        />
+      </div>
+    </nav>
+    <div id="formCont" class="container-fluid" >
+    <form action="/action_page.php">
+      <div class="form-group formItems">
+        <label for="name">Name :</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Your Name"
+          id="name"
+          required
+        />
+      </div>
+      <div class="form-group formItems">
+        <label for="address">Addrees :</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Your Address"
+          id="address"
+          required
+        />
+      </div>
+      <div class="form-group formItems">
+        <label for="phone">Phone :</label>
+        <input
+          type="tel"
+          class="form-control"
+          placeholder="Your phone number "
+          id="phone"
+          required
+        />
+        <hr>
+      </div>
+        <div class = "formItems">
+        <legend>Order your food</legend>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Mansaf
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Machboos
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Maqluba
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Shawarma
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Grilled Chicken
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Broasted Chicken
+          </label>
+        </div>
+        <br><br>
+      
+
+      
+        <legend>Size</legend>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Small
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Medium
+          </label>
+        </div>
+        <div class="form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" />Large
+          </label>
+        </div>
+        </div>
+
+      <div class="form-group formItems">
+        <label for="comment">Comment:</label>
+        <textarea
+          class="form-control"
+          rows="5"
+          id="comment"
+        ></textarea>
+        <hr>
+      </div>
+      
+
+      <button type="submit" class="btn btn-primary sub">Submit Your Order</button>
+      <br><br><br>
+    </div>
+    </form>
+    
+
+    <footer class="ft">
+        <div id="blueBar">
+          <div class="alter one">
+            <span> DONE </span>
+          </div>
+          <div class="alter two">
+            <span> WITH LOVE </span>
+          </div>
+          <div class="alter three">
+            <span> BY : </span>
+          </div>
+          <div class="alter four">
+            <span> AHMAD ABU AWAD</span>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
